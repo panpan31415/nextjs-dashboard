@@ -1,0 +1,30 @@
+tailwind is a css framework that speeds up the 
+development process by allowing you to quickly write 
+utility classes directly in TSX markup. 
+
+why optimize fonts?
+Fonts play a significant role in the design
+of a website, but using custom fonts in your
+project can affect performance if the font
+files need to be fetched and loaded.
+
+Next.js automatically optimizes fonts in the
+application when you use the next/font module.
+It downloads font files at build time and hosts
+them with your other static assets. This means 
+when a user visits your application, 
+there are no additional network requests 
+for fonts which would impact performance.
+
+
+#Adding a primary font
+
+#Why optimize navigation?
+
+To link between pages, you'd traditionally use the <a> HTML element.
+
+There's a full page refresh on each page navigation!
+
+In Next.js, you can use the <Link /> Component to link between pages in your application. 
+<Link> allows you to do client-side navigation with JavaScript.
+
